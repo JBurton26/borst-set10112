@@ -1,0 +1,12 @@
+package body cwk with SPARK_mode
+is
+   type ControlRod is range 1..5;
+   type EngineTemp is range 0..1000;
+   type NumCarriages is range 1..10;
+   type TrainSpeed
+   procedure Controller is
+   begin
+      null;
+   end Controller;
+
+end cwk;

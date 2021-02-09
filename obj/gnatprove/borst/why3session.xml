@@ -1,0 +1,1044 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE why3session PUBLIC "-//Why3//proof session v5//EN"
+"http://why3.lri.fr/why3session.dtd">
+<why3session shape_version="6">
+<prover id="0" name="CVC4" version="1.6-gnatprove" timelimit="0" steplimit="18500" memlimit="0"/>
+<prover id="1" name="CVC4_CE" version="1.6-gnatprove" timelimit="10" steplimit="18500" memlimit="0"/>
+<prover id="2" name="altergo" version="1.30-gnatprove" timelimit="5" steplimit="0" memlimit="1000"/>
+<prover id="3" name="Z3" version="4.5.1-gnatprove" timelimit="5" steplimit="0" memlimit="1000"/>
+<file>
+<path name=".."/>
+<path name="borst.mlw"/>
+<theory name="Borst__addrod__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="postcondition">
+  </goal>
+  <goal name="VC def.2" expl="postcondition">
+  </goal>
+  <goal name="VC def.3" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="66"/></proof>
+  </goal>
+  <goal name="VC def.4" expl="postcondition">
+  </goal>
+  <goal name="VC def.5" expl="postcondition">
+  </goal>
+  <goal name="VC def.6" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="72"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="203"/></proof>
+  </goal>
+  <goal name="VC def.7" expl="postcondition">
+  </goal>
+  <goal name="VC def.8" expl="postcondition">
+  </goal>
+  <goal name="VC def.9" expl="precondition">
+  <proof prover="0" obsolete="true"><result status="valid" steps="20"/></proof>
+  </goal>
+  <goal name="VC def.10" expl="postcondition">
+  </goal>
+  <goal name="VC def.11" expl="postcondition">
+  </goal>
+  <goal name="VC def.12" expl="precondition">
+  <proof prover="0" obsolete="true"><result status="valid" steps="20"/></proof>
+  </goal>
+  <goal name="VC def.13" expl="postcondition">
+  <proof prover="0" obsolete="true"><result status="valid" steps="82"/></proof>
+  </goal>
+  <goal name="VC def.14" expl="precondition">
+  </goal>
+  <goal name="VC def.15" expl="postcondition">
+  </goal>
+  <goal name="VC def.16" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="33"/></proof>
+  </goal>
+  <goal name="VC def.16" expl="precondition">
+  <proof prover="0"><result status="valid" steps="20"/></proof>
+  </goal>
+  <goal name="VC def.15" expl="precondition">
+  <proof prover="0"><result status="valid" steps="82"/></proof>
+  </goal>
+  <goal name="VC def.17" expl="precondition">
+  <proof prover="0"><result status="valid" steps="20"/></proof>
+  </goal>
+  <goal name="VC def.13" expl="precondition">
+  <proof prover="0"><result status="valid" steps="20"/></proof>
+  </goal>
+  <goal name="VC def.15" expl="precondition">
+  <proof prover="0"><result status="valid" steps="20"/></proof>
+  </goal>
+  <goal name="VC def.7" expl="precondition">
+  <proof prover="0"><result status="valid" steps="72"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="166"/></proof>
+  </goal>
+  <goal name="VC def.1" expl="postcondition">
+  </goal>
+  <goal name="VC def.20" expl="postcondition">
+  <proof prover="0"><result status="valid" steps="20"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="105"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Borst__removerod__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="postcondition">
+  </goal>
+  <goal name="VC def.2" expl="postcondition">
+  </goal>
+  <goal name="VC def.3" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="66"/></proof>
+  </goal>
+  <goal name="VC def.4" expl="postcondition">
+  </goal>
+  <goal name="VC def.5" expl="postcondition">
+  </goal>
+  <goal name="VC def.6" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="73"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="175"/></proof>
+  </goal>
+  <goal name="VC def.7" expl="postcondition">
+  </goal>
+  <goal name="VC def.8" expl="postcondition">
+  </goal>
+  <goal name="VC def.9" expl="precondition">
+  <proof prover="0" obsolete="true"><result status="valid" steps="20"/></proof>
+  </goal>
+  <goal name="VC def.10" expl="postcondition">
+  </goal>
+  <goal name="VC def.11" expl="postcondition">
+  </goal>
+  <goal name="VC def.12" expl="precondition">
+  <proof prover="0" obsolete="true"><result status="valid" steps="20"/></proof>
+  </goal>
+  <goal name="VC def.13" expl="postcondition">
+  <proof prover="0" obsolete="true"><result status="valid" steps="82"/></proof>
+  </goal>
+  <goal name="VC def.14" expl="precondition">
+  </goal>
+  <goal name="VC def.15" expl="postcondition">
+  </goal>
+  <goal name="VC def.16" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="33"/></proof>
+  </goal>
+  <goal name="VC def.16" expl="precondition">
+  <proof prover="0"><result status="valid" steps="20"/></proof>
+  </goal>
+  <goal name="VC def.15" expl="precondition">
+  <proof prover="0"><result status="valid" steps="82"/></proof>
+  </goal>
+  <goal name="VC def.17" expl="precondition">
+  <proof prover="0"><result status="valid" steps="20"/></proof>
+  </goal>
+  <goal name="VC def.13" expl="precondition">
+  <proof prover="0"><result status="valid" steps="20"/></proof>
+  </goal>
+  <goal name="VC def.15" expl="precondition">
+  <proof prover="0"><result status="valid" steps="20"/></proof>
+  </goal>
+  <goal name="VC def.10" expl="precondition">
+  <proof prover="0"><result status="valid" steps="76"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="203"/></proof>
+  </goal>
+  <goal name="VC def.8" expl="postcondition">
+  </goal>
+  <goal name="VC def.20" expl="postcondition">
+  <proof prover="0"><result status="valid" steps="34"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Borst__domaintenance__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="postcondition">
+  </goal>
+  <goal name="VC def.2" expl="postcondition">
+  </goal>
+  <goal name="VC def.3" expl="postcondition">
+  </goal>
+  <goal name="VC def.4" expl="postcondition">
+  </goal>
+  <goal name="VC def.5" expl="postcondition">
+  </goal>
+  <goal name="VC def.6" expl="postcondition">
+  </goal>
+  <goal name="VC def.7" expl="postcondition">
+  </goal>
+  <goal name="VC def.8" expl="postcondition">
+  </goal>
+  <goal name="VC def.9" expl="postcondition">
+  </goal>
+  <goal name="VC def.10" expl="postcondition">
+  </goal>
+  <goal name="VC def.11" expl="precondition">
+  </goal>
+  <goal name="VC def.12" expl="postcondition">
+  </goal>
+  <goal name="VC def.13" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="33"/></proof>
+  </goal>
+  <goal name="VC def.14" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="33"/></proof>
+  </goal>
+  <goal name="VC def.15" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="33"/></proof>
+  </goal>
+  <goal name="VC def.1" expl="postcondition">
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Borst__startengine__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="postcondition">
+  </goal>
+  <goal name="VC def.2" expl="postcondition">
+  </goal>
+  <goal name="VC def.3" expl="postcondition">
+  </goal>
+  <goal name="VC def.4" expl="postcondition">
+  <proof prover="0" obsolete="true"><result status="unknown" steps="120"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="151"/></proof>
+  </goal>
+  <goal name="VC def.5" expl="postcondition">
+  </goal>
+  <goal name="VC def.6" expl="postcondition">
+  </goal>
+  <goal name="VC def.7" expl="precondition">
+  </goal>
+  <goal name="VC def.8" expl="postcondition">
+  </goal>
+  <goal name="VC def.9" expl="postcondition">
+  </goal>
+  <goal name="VC def.10" expl="precondition">
+  </goal>
+  <goal name="VC def.11" expl="postcondition">
+  </goal>
+  <goal name="VC def.12" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Borst__stopengine__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="postcondition">
+  </goal>
+  <goal name="VC def.2" expl="postcondition">
+  </goal>
+  <goal name="VC def.3" expl="postcondition">
+  </goal>
+  <goal name="VC def.4" expl="postcondition">
+  </goal>
+  <goal name="VC def.5" expl="postcondition">
+  </goal>
+  <goal name="VC def.6" expl="postcondition">
+  </goal>
+  <goal name="VC def.7" expl="postcondition">
+  </goal>
+  <goal name="VC def.8" expl="postcondition">
+  </goal>
+  <goal name="VC def.9" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.10" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Borst__addtraincar__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="postcondition">
+  </goal>
+  <goal name="VC def.2" expl="postcondition">
+  </goal>
+  <goal name="VC def.3" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="60"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="102"/></proof>
+  </goal>
+  <goal name="VC def.4" expl="postcondition">
+  </goal>
+  <goal name="VC def.5" expl="postcondition">
+  <proof prover="0" obsolete="true"><result status="valid" steps="61"/></proof>
+  </goal>
+  <goal name="VC def.6" expl="precondition">
+  <proof prover="0" obsolete="true"><result status="valid" steps="20"/></proof>
+  </goal>
+  <goal name="VC def.7" expl="postcondition">
+  </goal>
+  <goal name="VC def.8" expl="postcondition">
+  </goal>
+  <goal name="VC def.9" expl="precondition">
+  </goal>
+  <goal name="VC def.10" expl="postcondition">
+  </goal>
+  <goal name="VC def.11" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="20"/></proof>
+  </goal>
+  <goal name="VC def.12" expl="precondition">
+  <proof prover="0"><result status="valid" steps="20"/></proof>
+  </goal>
+  <goal name="VC def.14" expl="precondition">
+  <proof prover="0"><result status="valid" steps="70"/></proof>
+  </goal>
+  <goal name="VC def.11" expl="precondition">
+  <proof prover="0"><result status="valid" steps="20"/></proof>
+  </goal>
+  <goal name="VC def.13" expl="precondition">
+  <proof prover="0"><result status="valid" steps="70"/></proof>
+  </goal>
+  <goal name="VC def.15" expl="postcondition">
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Borst__removetraincar__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="postcondition">
+  </goal>
+  <goal name="VC def.2" expl="postcondition">
+  </goal>
+  <goal name="VC def.3" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="54"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="102"/></proof>
+  </goal>
+  <goal name="VC def.4" expl="postcondition">
+  </goal>
+  <goal name="VC def.5" expl="postcondition">
+  <proof prover="0" obsolete="true"><result status="valid" steps="20"/></proof>
+  </goal>
+  <goal name="VC def.6" expl="precondition">
+  <proof prover="0" obsolete="true"><result status="valid" steps="20"/></proof>
+  </goal>
+  <goal name="VC def.7" expl="postcondition">
+  </goal>
+  <goal name="VC def.8" expl="postcondition">
+  </goal>
+  <goal name="VC def.9" expl="precondition">
+  </goal>
+  <goal name="VC def.10" expl="postcondition">
+  </goal>
+  <goal name="VC def.11" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="20"/></proof>
+  </goal>
+  <goal name="VC def.12" expl="precondition">
+  <proof prover="0"><result status="valid" steps="20"/></proof>
+  </goal>
+  <goal name="VC def.14" expl="precondition">
+  <proof prover="0"><result status="valid" steps="20"/></proof>
+  </goal>
+  <goal name="VC def.11" expl="precondition">
+  <proof prover="0"><result status="valid" steps="20"/></proof>
+  </goal>
+  <goal name="VC def.13" expl="precondition">
+  <proof prover="0"><result status="valid" steps="20"/></proof>
+  </goal>
+  <goal name="VC def.15" expl="postcondition">
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Borst__getmax__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.2" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.3" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.4" expl="postcondition">
+  </goal>
+  <goal name="VC def.5" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.6" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Borst__getheat__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="107"/></proof>
+  </goal>
+  <goal name="VC def.2" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="107"/></proof>
+  </goal>
+  <goal name="VC def.3" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="937"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="1597"/></proof>
+  </goal>
+  <goal name="VC def.4" expl="postcondition">
+  </goal>
+  <goal name="VC def.5" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.3" expl="precondition">
+  <proof prover="0"><result status="valid" steps="116"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Borst__getcurrentspeed__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.2" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.3" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.4" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="336"/></proof>
+  </goal>
+  <goal name="VC def.5" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="336"/></proof>
+  </goal>
+  <goal name="VC def.6" expl="postcondition">
+  </goal>
+  <goal name="VC def.7" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.8" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.1" expl="precondition">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.5" expl="precondition">
+  <proof prover="0"><result status="valid" steps="384"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Borst__emergencystop__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="postcondition">
+  </goal>
+  <goal name="VC def.2" expl="postcondition">
+  </goal>
+  <goal name="VC def.3" expl="postcondition">
+  </goal>
+  <goal name="VC def.4" expl="postcondition">
+  </goal>
+  <goal name="VC def.5" expl="postcondition">
+  </goal>
+  <goal name="VC def.6" expl="postcondition">
+  </goal>
+  <goal name="VC def.7" expl="postcondition">
+  </goal>
+  <goal name="VC def.8" expl="postcondition">
+  </goal>
+  <goal name="VC def.9" expl="postcondition">
+  <proof prover="0" obsolete="true"><result status="unknown" steps="215"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="289"/></proof>
+  </goal>
+  <goal name="VC def.10" expl="postcondition">
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Borst__heatl__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="postcondition">
+  </goal>
+  <goal name="VC def.2" expl="postcondition">
+  </goal>
+  <goal name="VC def.3" expl="postcondition">
+  </goal>
+  <goal name="VC def.4" expl="postcondition">
+  </goal>
+  <goal name="VC def.5" expl="postcondition">
+  </goal>
+  <goal name="VC def.6" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="90"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Borst__filltank__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="postcondition">
+  </goal>
+  <goal name="VC def.2" expl="postcondition">
+  </goal>
+  <goal name="VC def.3" expl="postcondition">
+  </goal>
+  <goal name="VC def.4" expl="postcondition">
+  </goal>
+  <goal name="VC def.5" expl="postcondition">
+  </goal>
+  <goal name="VC def.6" expl="postcondition">
+  </goal>
+  <goal name="VC def.7" expl="precondition">
+  </goal>
+  <goal name="VC def.8" expl="postcondition">
+  </goal>
+  <goal name="VC def.9" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="33"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Borst__tankl__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="postcondition">
+  </goal>
+  <goal name="VC def.2" expl="postcondition">
+  </goal>
+  <goal name="VC def.3" expl="postcondition">
+  </goal>
+  <goal name="VC def.4" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="58"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="102"/></proof>
+  </goal>
+  <goal name="VC def.5" expl="postcondition">
+  </goal>
+  <goal name="VC def.6" expl="postcondition">
+  </goal>
+  <goal name="VC def.7" expl="precondition">
+  </goal>
+  <goal name="VC def.8" expl="postcondition">
+  </goal>
+  <goal name="VC def.9" expl="postcondition">
+  </goal>
+  <goal name="VC def.10" expl="precondition">
+  <proof prover="0" obsolete="true"><result status="valid" steps="20"/></proof>
+  </goal>
+  <goal name="VC def.11" expl="postcondition">
+  </goal>
+  <goal name="VC def.12" expl="precondition">
+  <proof prover="0" obsolete="true"><result status="valid" steps="75"/></proof>
+  </goal>
+  <goal name="VC def.13" expl="postcondition">
+  </goal>
+  <goal name="VC def.14" expl="postcondition">
+  </goal>
+  <goal name="VC def.15" expl="postcondition">
+  </goal>
+  <goal name="VC def.16" expl="postcondition">
+  </goal>
+  <goal name="VC def.17" expl="postcondition">
+  </goal>
+  <goal name="VC def.18" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="126"/></proof>
+  </goal>
+  <goal name="VC def.15" expl="precondition">
+  <proof prover="0"><result status="valid" steps="20"/></proof>
+  </goal>
+  <goal name="VC def.13" expl="precondition">
+  <proof prover="0"><result status="valid" steps="66"/></proof>
+  </goal>
+  <goal name="VC def.12" expl="precondition">
+  <proof prover="0"><result status="valid" steps="75"/></proof>
+  </goal>
+  <goal name="VC def.14" expl="precondition">
+  <proof prover="0"><result status="valid" steps="20"/></proof>
+  </goal>
+  <goal name="VC def.10" expl="precondition">
+  <proof prover="0"><result status="valid" steps="20"/></proof>
+  </goal>
+  <goal name="VC def.12" expl="precondition">
+  <proof prover="0"><result status="valid" steps="66"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Borst__maintl__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="postcondition">
+  </goal>
+  <goal name="VC def.2" expl="postcondition">
+  </goal>
+  <goal name="VC def.3" expl="postcondition">
+  </goal>
+  <goal name="VC def.4" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="58"/></proof>
+  </goal>
+  <goal name="VC def.5" expl="postcondition">
+  </goal>
+  <goal name="VC def.6" expl="postcondition">
+  </goal>
+  <goal name="VC def.7" expl="postcondition">
+  </goal>
+  <goal name="VC def.8" expl="postcondition">
+  </goal>
+  <goal name="VC def.9" expl="postcondition">
+  </goal>
+  <goal name="VC def.10" expl="postcondition">
+  </goal>
+  <goal name="VC def.11" expl="postcondition">
+  </goal>
+  <goal name="VC def.12" expl="postcondition">
+  </goal>
+  <goal name="VC def.13" expl="postcondition">
+  </goal>
+  <goal name="VC def.14" expl="postcondition">
+  </goal>
+  <goal name="VC def.15" expl="postcondition">
+  </goal>
+  <goal name="VC def.16" expl="postcondition">
+  </goal>
+  <goal name="VC def.17" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="171"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="423"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Borst__speedl__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="126"/></proof>
+  </goal>
+  <goal name="VC def.2" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="112"/></proof>
+  </goal>
+  <goal name="VC def.3" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="139"/></proof>
+  </goal>
+  <goal name="VC def.4" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="133"/></proof>
+  </goal>
+  <goal name="VC def.5" expl="postcondition">
+  </goal>
+  <goal name="VC def.6" expl="postcondition">
+  </goal>
+  <goal name="VC def.7" expl="postcondition">
+  </goal>
+  <goal name="VC def.8" expl="postcondition">
+  </goal>
+  <goal name="VC def.9" expl="postcondition">
+  </goal>
+  <goal name="VC def.10" expl="postcondition">
+  </goal>
+  <goal name="VC def.11" expl="postcondition">
+  <proof prover="0" timelimit="5" steplimit="0" memlimit="1000"><result status="unknown" steps="250"/></proof>
+  <proof prover="1" timelimit="5" steplimit="0" memlimit="1000"><result status="unknown" steps="499"/></proof>
+  <proof prover="2"><result status="unknown"/></proof>
+  <proof prover="3"><result status="timeout"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Borst__changecarriagetype__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="postcondition">
+  </goal>
+  <goal name="VC def.2" expl="postcondition">
+  </goal>
+  <goal name="VC def.3" expl="postcondition">
+  </goal>
+  <goal name="VC def.4" expl="assertion" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.5" expl="assertion" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.6" expl="postcondition">
+  </goal>
+  <goal name="VC def.7" expl="postcondition">
+  </goal>
+  <goal name="VC def.8" expl="assertion" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.9" expl="assertion" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.10" expl="postcondition">
+  </goal>
+  <goal name="VC def.11" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="109"/></proof>
+  </goal>
+  <goal name="VC def.12" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="55"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Borst__addpassenger__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="precondition" proved="true">
+  <proof prover="0" timelimit="5" steplimit="0" memlimit="1000"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.1" expl="precondition" proved="true">
+  <proof prover="0" timelimit="5" steplimit="0" memlimit="1000"><result status="valid" steps="168"/></proof>
+  </goal>
+  <goal name="VC def.2" expl="precondition">
+  <proof prover="0"><result status="unknown" steps="292"/></proof>
+  <proof prover="1"><result status="unknown" steps="351"/></proof>
+  <proof prover="2"><result status="timeout"/></proof>
+  <proof prover="3"><result status="timeout"/></proof>
+  </goal>
+  <goal name="VC def.3" expl="precondition">
+  <proof prover="0"><result status="unknown" steps="292"/></proof>
+  <proof prover="1"><result status="unknown" steps="351"/></proof>
+  <proof prover="2"><result status="timeout"/></proof>
+  <proof prover="3"><result status="timeout"/></proof>
+  </goal>
+  <goal name="VC def.4" expl="postcondition">
+  </goal>
+  <goal name="VC def.5" expl="postcondition">
+  </goal>
+  <goal name="VC def.6" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="380"/></proof>
+  </goal>
+  <goal name="VC def.7" expl="postcondition">
+  </goal>
+  <goal name="VC def.8" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="351"/></proof>
+  </goal>
+  <goal name="VC def.9" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="172"/></proof>
+  </goal>
+  <goal name="VC def.10" expl="postcondition">
+  </goal>
+  <goal name="VC def.11" expl="postcondition">
+  </goal>
+  <goal name="VC def.12" expl="precondition">
+  </goal>
+  <goal name="VC def.13" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.14" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="229"/></proof>
+  </goal>
+  <goal name="VC def.15" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="40"/></proof>
+  </goal>
+  <goal name="VC def.16" expl="postcondition">
+  </goal>
+  <goal name="VC def.17" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="41"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="419"/></proof>
+  <proof prover="2" obsolete="true"><result status="timeout"/></proof>
+  <proof prover="3" obsolete="true"><result status="timeout"/></proof>
+  </goal>
+  <goal name="VC def.2" expl="precondition">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.13" expl="precondition">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="392"/></proof>
+  </goal>
+  <goal name="VC def.11" expl="postcondition">
+  </goal>
+  <goal name="VC def.19" expl="postcondition">
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Borst__removepassenger__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="precondition">
+  <proof prover="0"><result status="unknown" steps="63"/></proof>
+  <proof prover="1"><result status="unknown" steps="93"/></proof>
+  <proof prover="2"><result status="unknown"/></proof>
+  <proof prover="3"><result status="timeout"/></proof>
+  </goal>
+  <goal name="VC def.1" expl="postcondition">
+  </goal>
+  <goal name="VC def.2" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.3" expl="postcondition">
+  </goal>
+  <goal name="VC def.4" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.5" expl="postcondition">
+  </goal>
+  <goal name="VC def.6" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.7" expl="postcondition">
+  </goal>
+  <goal name="VC def.8" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.9" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="64"/></proof>
+  </goal>
+  <goal name="VC def.10" expl="postcondition">
+  </goal>
+  <goal name="VC def.11" expl="postcondition">
+  </goal>
+  <goal name="VC def.12" expl="precondition">
+  </goal>
+  <goal name="VC def.13" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="40"/></proof>
+  </goal>
+  <goal name="VC def.14" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="40"/></proof>
+  </goal>
+  <goal name="VC def.15" expl="postcondition">
+  </goal>
+  <goal name="VC def.16" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="41"/></proof>
+  </goal>
+  <goal name="VC def.17" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="41"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Borst__addfreight__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.1" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="168"/></proof>
+  </goal>
+  <goal name="VC def.2" expl="precondition">
+  <proof prover="0"><result status="unknown" steps="306"/></proof>
+  <proof prover="1"><result status="unknown" steps="398"/></proof>
+  <proof prover="2"><result status="timeout"/></proof>
+  <proof prover="3"><result status="timeout"/></proof>
+  </goal>
+  <goal name="VC def.3" expl="precondition">
+  <proof prover="0"><result status="unknown" steps="306"/></proof>
+  <proof prover="1"><result status="unknown" steps="398"/></proof>
+  <proof prover="2"><result status="timeout"/></proof>
+  <proof prover="3"><result status="timeout"/></proof>
+  </goal>
+  <goal name="VC def.4" expl="postcondition">
+  </goal>
+  <goal name="VC def.5" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.6" expl="postcondition">
+  </goal>
+  <goal name="VC def.7" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.8" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="182"/></proof>
+  </goal>
+  <goal name="VC def.9" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.10" expl="postcondition">
+  </goal>
+  <goal name="VC def.11" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.12" expl="postcondition">
+  </goal>
+  <goal name="VC def.13" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.14" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="172"/></proof>
+  </goal>
+  <goal name="VC def.15" expl="postcondition">
+  </goal>
+  <goal name="VC def.16" expl="postcondition">
+  </goal>
+  <goal name="VC def.17" expl="precondition">
+  </goal>
+  <goal name="VC def.18" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="40"/></proof>
+  </goal>
+  <goal name="VC def.19" expl="postcondition">
+  </goal>
+  <goal name="VC def.20" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="41"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="655"/></proof>
+  </goal>
+  <goal name="VC def.21" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="26"/></proof>
+  </goal>
+  <goal name="VC def.22" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="40"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Borst__removefreight__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="precondition">
+  <proof prover="0"><result status="unknown" steps="85"/></proof>
+  <proof prover="1"><result status="unknown" steps="123"/></proof>
+  <proof prover="2"><result status="unknown"/></proof>
+  <proof prover="3"><result status="timeout"/></proof>
+  </goal>
+  <goal name="VC def.1" expl="postcondition">
+  </goal>
+  <goal name="VC def.2" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.3" expl="postcondition">
+  </goal>
+  <goal name="VC def.4" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.5" expl="postcondition">
+  </goal>
+  <goal name="VC def.6" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.7" expl="postcondition">
+  </goal>
+  <goal name="VC def.8" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.9" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="64"/></proof>
+  </goal>
+  <goal name="VC def.10" expl="postcondition">
+  </goal>
+  <goal name="VC def.11" expl="postcondition">
+  </goal>
+  <goal name="VC def.12" expl="precondition">
+  </goal>
+  <goal name="VC def.13" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="40"/></proof>
+  </goal>
+  <goal name="VC def.14" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="40"/></proof>
+  </goal>
+  <goal name="VC def.15" expl="postcondition">
+  </goal>
+  <goal name="VC def.16" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="57"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="421"/></proof>
+  </goal>
+  <goal name="VC def.17" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="41"/></proof>
+  </goal>
+  <goal name="VC def.18" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="26"/></proof>
+  </goal>
+  <goal name="VC def.19" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="40"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Borst__calcweight__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="123"/></proof>
+  </goal>
+  <goal name="VC def.2" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="74"/></proof>
+  </goal>
+  <goal name="VC def.3" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="58"/></proof>
+  </goal>
+  <goal name="VC def.4" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="89"/></proof>
+  </goal>
+  <goal name="VC def.5" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="89"/></proof>
+  </goal>
+  <goal name="VC def.6" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="77"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="94"/></proof>
+  </goal>
+  <goal name="VC def.7" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.8" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="84"/></proof>
+  </goal>
+  <goal name="VC def.9" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="66"/></proof>
+  </goal>
+  <goal name="VC def.10" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.11" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="64"/></proof>
+  </goal>
+  <goal name="VC def.12" expl="postcondition">
+  </goal>
+  <goal name="VC def.13" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="58"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Borst__waterticker__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="postcondition">
+  </goal>
+ </transf>
+ </goal>
+</theory>
+</file>
+</why3session>
